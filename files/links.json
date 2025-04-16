@@ -1,0 +1,22 @@
+[
+    {
+      "name": "Person 1",
+      "image": "files/img/icons/curitics.png",
+      "link": "https://localhost:8000"
+    },
+    {
+      "name": "Person 2",
+      "image": "files/img/icons/curitics.png",
+      "link": "https://localhost:8000"
+    },
+    {
+      "name": "Person 3",
+      "image": "files/img/icons/curitics.png",
+      "link": "https://localhost:8000"
+    },
+    {
+      "name": "Person 4",
+      "image": "files/img/icons/curitics.png",
+      "link": "https://localhost:8000"
+    }
+  ]
