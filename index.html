@@ -1,0 +1,221 @@
+<!doctype html>
+<html lang="en">
+   <head>
+      <!-- Required meta tags -->
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <title>Hello, Suhail!</title>
+      <link href="files/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+      <script src="files/bootstrap.min.js"></script>
+      <script src="files/jquery.min.js"></script>
+      <!------ Include the above in your HEAD tag ---------->
+      <style>
+         .carousel-item {
+         height: 100vh;
+         min-height: 350px;
+         background: no-repeat center center scroll;
+         -webkit-background-size: cover;
+         -moz-background-size: cover;
+         -o-background-size: cover;
+         background-size: cover;
+         }
+         section {
+         padding-top: 5rem;
+         padding-bottom: 5rem;
+         }
+         .lnr {
+         display: inline-block;
+         fill: currentColor;
+         width: 1em;
+         height: 1em;
+         vertical-align: -0.05em;
+         stroke-width: 1;
+         }
+         .services-icon {
+         margin-bottom: 20px;
+         font-size: 30px;
+         }
+         bgc2, .vLine, .hLine {
+         background-color: #0F52BA;
+         }
+         .quote-icon {
+         font-size: 40px;
+         margin-bottom: 20px;
+         }
+         .services-icon {
+         font-size: 60px;
+         margin-left: 2rem;
+         }
+         .team-image {
+         border: 3px solid #ddd; /* Rounded border */
+         background-color: rgb(111, 111, 111); /* White background for PNGs */
+         padding: 10px; /* Space between image and border */
+         }
+         .image-container {
+         display: inline-block;
+         border-radius: 50%; /* Ensures the border is circular */
+         overflow: hidden; /* Ensures the image stays within the border */
+         background-color: white; /* White background for transparency */
+         }
+      </style>
+   </head>
+   <body>
+      <!-- Navigation -->
+      <!-- <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+         <div class="container">
+           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                 <span class="navbar-toggler-icon"></span>
+               </button>
+           <div class="collapse navbar-collapse" style="background-color: transparent !important; background: transparent !important;" id="navbarResponsive">
+             <ul class="navbar-nav ml-auto">
+               <li class="nav-item active">
+                 <a class="nav-link" href="#">Home
+                       <span class="sr-only">(current)</span>
+                     </a>
+               </li>
+               <li class="nav-item">
+                 <a class="nav-link" href="#">About</a>
+               </li>
+               <li class="nav-item">
+                 <a class="nav-link" href="#">Services</a>
+               </li>
+               <li class="nav-item">
+                 <a class="nav-link" href="#">Contact</a>
+               </li>
+             </ul>
+           </div>
+         </div>
+         </nav> -->
+      <header>
+         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+               <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+               <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+               <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner" role="listbox">
+               <div class="carousel-item active" style="background-image: url('files/img/1.jpg')">
+                  <div class="carousel-caption d-none d-md-block">
+
+                     <section class="text-center my-5">
+                        <div class="container">
+                           <h2 class="mb-4">Welcome, Suhail Husain</h2>
+                           <h2  id="timeDisplay" class="display-4"></h2>
+                           <p class="lead">This is a description for the first slide.</p>
+                           <div id="team-container" class="row justify-content-center">
+                           </div>
+                        </div>
+                     </section>
+
+                  </div>
+               </div>
+               <div class="carousel-item" style="background-image: url('files/img/2.jpg')">
+                  <div class="carousel-caption d-none d-md-block">
+                    <section class="text-center my-5">
+                        <div class="container">
+                           <h2 class="mb-4">Welcome, Suhail Husain</h2>
+                           
+                            <h2  id="timeDisplay2" class="display-4"></h2>
+                            <p class="lead">This is a description for the second slide.</p>
+                           <div id="team-container1" class="row justify-content-center">
+                           </div>
+                        </div>
+                     </section>
+                  </div>
+               </div>
+               <div class="carousel-item" style="background-image: url('files/img/3.jpg')">
+                  <div class="carousel-caption d-none d-md-block">
+                    <section class="text-center my-5">
+                        <div class="container">
+                           <h2 class="mb-4">Welcome, Suhail Husain</h2>
+                     <h2 id="timeDisplay3" class="display-4"></h2>
+                     <p class="lead">Have a good day Sir!</p>
+                           <div id="team-container2" class="row justify-content-center">
+                           </div>
+                           
+                        </div>
+                     </section>
+                  </div>
+               </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+            </a>
+         </div>
+      </header>
+      <!-- Popup Modal -->
+<!-- <div id="popupModal" class="modal" style="display: none; position: fixed; top: 38%; left: 50%; transform: translate(-50%, -50%); z-index: 1000; background: white; padding: 20px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);">
+    <h4>Add New Link</h4>
+    <form id="addLinkForm">
+      <div class="form-group">
+        <label for="name">Name:</label>
+        <input type="text" id="name" class="form-control" required>
+      </div>
+      <div class="form-group">
+        <label for="image">Image URL:</label>
+        <input type="text" id="image" class="form-control" required>
+      </div>
+      <div class="form-group">
+        <label for="link">Link URL:</label>
+        <input type="text" id="link" class="form-control" required>
+      </div>
+      <button type="submit" class="btn btn-success">Add</button>
+      <button type="button" id="closePopup" class="btn btn-secondary">Close</button>
+    </form>
+  </div> -->
+      <script src="files/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+      <script src="https://cdn.linearicons.com/free/1.0.0/svgembedder.min.js"></script>
+      <script src="links.js"></script>
+      <script>
+         function updateTime() {
+             const now = new Date();
+             const options = { hour: '2-digit', minute: '2-digit', second: '2-digit', hour12: true };
+             const timeString = now.toLocaleTimeString([], options);
+             document.getElementById('timeDisplay').textContent = timeString;
+             document.getElementById('timeDisplay2').textContent = timeString;
+             document.getElementById('timeDisplay3').textContent = timeString;
+         }
+         updateTime();
+         setInterval(updateTime, 1000);
+
+         function getLinksDiv(container){
+            links.forEach(member => {
+            const colDiv = document.createElement('div');
+            colDiv.className = 'col-2';
+            
+            colDiv.innerHTML = `
+            <a href="${member.link}" target="_blank">
+            <div class="image-container">
+            <img src="${member.image}" alt="${member.name}" class="img-fluid rounded-circle team-image">
+            </div>
+            <p class="mt-2">${member.name}</p>
+            </a>
+            `;
+            container.appendChild(colDiv);
+            });
+        }
+
+         function renderLinks() {
+         const teamContainer = document.getElementById('team-container');
+         const teamContainer1 = document.getElementById('team-container1');
+         const teamContainer2 = document.getElementById('team-container2');
+         teamContainer.innerHTML = ''; // Clear existing content
+
+         getLinksDiv(teamContainer);
+         getLinksDiv(teamContainer1);
+         getLinksDiv(teamContainer2);
+        }
+
+        // Initial render
+        renderLinks();
+
+      </script>
+   </body>
+</html>
