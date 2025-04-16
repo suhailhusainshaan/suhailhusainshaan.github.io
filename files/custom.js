@@ -19,7 +19,7 @@ function createCarousel(data) {
                 <div style="text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);" id="team-container${index}" class="row justify-content-center"></div>
             </div>
             <div class="input-group col-md-8 offset-md-2 my-4">
-                <input type="text" id="searchInput${index}" class="form-control" placeholder="Search Google..." aria-label="Search Google">
+                <input type="text" id="searchInput${index}" class="form-control transparent-input" placeholder="Search Google..." aria-label="Search Google">
                 <div class="input-group-append">
                     <button class="btn btn-outline-secondary" type="button" onclick="searchGoogle(${index})">
                         <i class="fas fa-search"></i>
