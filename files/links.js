@@ -12,7 +12,7 @@ const links = [
     {
       "name": "Monday",
       "image": "files/img/icons/monday.png",
-      "link": "https://curitics.monday.com/boards/7855829113/views/168924307"
+      "link": "https://curitics.monday.com/boards/7855829113/views/173794093"
     },
     {
       "name": "Github",
