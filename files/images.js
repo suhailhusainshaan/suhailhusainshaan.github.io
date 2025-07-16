@@ -1,22 +1,22 @@
 const images = [
       {
-        "url": "https://images.unsplash.com/photo-1612544448445-b8232cff3b6c",
+        "url": "https://www.wsupercars.com/wallpapers-regular/Land…/2026-Land-Rover-Defender-Octa-Black-003-1080.jpg",
         "description": "Have a good day Sir!"
       },
       {
-        "url": "https://images.unsplash.com/photo-1610809376778-928ee2c3a561",
+        "url": "https://images.pexels.com/photos/733745/pexels-photo-733745.jpeg",
         "description": "Have a good day Sir!"
       },
       {
-        "url": "files/img/3.jpg",
+        "url": "https://images.pexels.com/photos/248747/pexels-photo-248747.jpeg",
         "description": "Have a good day Sir!"
       },
       {
-        "url": "https://images.unsplash.com/photo-1566008889966-2bc46924ab06",
+        "url": "https://images.pexels.com/photos/1131575/pexels-photo-1131575.jpeg",
         "description": "Have a good day Sir!"
       },
       {
-        "url": "https://images.unsplash.com/photo-1605816988069-b11383b50717",
+        "url": "https://wallpapercat.com/w/full/8/6/c/1647841-3840x2160-desktop-4k-land-rover-defender-background.jpg",
         "description": "Have a good day Sir!"
       }
     ];
