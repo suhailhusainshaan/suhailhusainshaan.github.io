@@ -1,6 +1,6 @@
 const images = [
       {
-        "url": "https://www.wsupercars.com/wallpapers-regular/Land…/2026-Land-Rover-Defender-Octa-Black-003-1080.jpg",
+        "url": "https://wallpapercat.com/w/middle-retina/e/7/b/164…2160-desktop-4k-land-rover-defender-wallpaper.jpg",
         "description": "Have a good day Sir!"
       },
       {
