@@ -97,6 +97,11 @@ document.addEventListener('keypress', function (e) {
 });
 
 createCarousel(images);
+createCarousel(images);
+$('#carouselExampleIndicators').carousel({
+  interval: 60000,
+  pause: "hover"
+});
 updateTime(images);
 setInterval(() => updateTime(images), 1000);
 
