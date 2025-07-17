@@ -98,6 +98,6 @@ document.addEventListener('keypress', function (e) {
 
 createCarousel(images);
 updateTime(images);
-setInterval(() => updateTime(images), 60000);
+setInterval(() => updateTime(images), 1000);
 
 renderLinks(images);
