@@ -16,7 +16,7 @@ const images = [
         "description": "Have a good day Sir!"
       },
       {
-        "url": "https://wallpapercat.com/w/full/8/6/c/1647841-3840x2160-desktop-4k-land-rover-defender-background.jpg",
+        "url": "https://www.wsupercars.com/wallpapers-regular/Tuners/2025-Brabus-1000-001-1080.jpg",
         "description": "Have a good day Sir!"
       }
     ];
