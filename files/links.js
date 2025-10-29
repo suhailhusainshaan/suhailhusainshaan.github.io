@@ -28,12 +28,8 @@ const links = [
       "name": "Localhost",
       "image": "files/img/icons/curitics.png",
       "link": "http://localhost:8000"
-    },
-    {
-      "name": "Sheets",
-      "image": "files/img/icons/sheets.png",
-      "link": "https://docs.google.com/spreadsheets/d/1X9tZ44KQn8avtISEEEYUsMpXpx2kczylIEe1eqEeaJw/edit?gid=0#gid=0"
     }
   ];
+
 
 
