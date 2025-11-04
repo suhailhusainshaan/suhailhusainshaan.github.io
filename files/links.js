@@ -17,7 +17,7 @@ const links = [
     {
       "name": "Plane",
       "image": "files/img/icons/plane.png",
-      "link": "https://app.plane.so/curitics-health/projects/4882b325-285a-421d-8a35-55073497d412/issues"
+      "link": "https://app.plane.so/curitics-health/projects/4882b325-285a-421d-8a35-55073497d412/views/2871807a-3a9d-4051-be29-83ace10c2c13/"
     },
     {
       "name": "Github",
@@ -30,6 +30,7 @@ const links = [
       "link": "http://localhost:8000"
     }
   ];
+
 
 
 
