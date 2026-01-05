@@ -44,7 +44,6 @@ function updateTime(data) {
     const options = { hour: '2-digit', minute: '2-digit', second: '2-digit', hour12: true };
     let timeString = now.toLocaleTimeString([], options);
     timeString = timeString.replace(/\bpm\b/i, 'PM').replace(/\bam\b/i, 'AM');
-    console.log(timeString)
     data.forEach((image, index) => {
     document.getElementById('timeDisplay' + index).textContent = timeString;
     })
@@ -106,3 +105,4 @@ updateTime(images);
 setInterval(() => updateTime(images), 1000);
 
 renderLinks(images);
+
