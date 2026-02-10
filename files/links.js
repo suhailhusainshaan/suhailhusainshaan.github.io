@@ -25,11 +25,12 @@ const links = [
       "link": "https://github.com/curiticshealth/Risk-Adjustment"
     },
     {
-      "name": "Localhost",
+      "name": "Local RA",
       "image": "files/img/icons/curitics.png",
-      "link": "http://localhost:8000"
+      "link": "https://ra"
     }
   ];
+
 
 
 
