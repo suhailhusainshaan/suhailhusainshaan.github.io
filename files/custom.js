@@ -7,29 +7,38 @@ function createCarousel(data) {
     data.forEach((image, index) => {
     const isActive = index === 0 ? 'active' : '';
     const carouselItem = `
-        <div class="carousel-item ${isActive}" style="background-image: url('${image.url}')">
-        <div class="carousel-caption d-none d-md-block">
+    <div class="carousel-item ${isActive}">
+        <!-- Video Background -->
+        <video autoplay muted loop playsinline style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; z-index: 0;">
+            <source src="${image.url}" type="video/mp4">
+        </video>
+        <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-image: url('${image.url}'); background-size: cover; background-position: center; z-index: 0;"></div>
+        <!-- Dark overlay for text readability -->
+        <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.4); z-index: 1;"></div>
+        
+        <div class="carousel-caption d-none d-md-block" style="z-index: 2;">
             <section class="text-center my-5">
-            <div class="container">
-                <h2 class="mb-4 text-center font-weight-bold" style="text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);">
-                    Welcome, Suhail Husain
-                </h2>
-                <h2 id="timeDisplay${index}" style="text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);" class="display-4"></h2>
-                <p style="text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);" class="lead">${image.description}</p>
-                <div style="text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);" id="team-container${index}" class="row justify-content-center"></div>
-            </div>
-            <div class="input-group col-md-8 offset-md-2 my-4">
-                <input type="text" id="searchInput${index}" class="form-control transparent-input" placeholder="Search Google..." aria-label="Search Google">
-                <div class="input-group-append">
-                    <button class="btn btn-outline-secondary" type="button" onclick="searchGoogle(${index})">
-                        <i class="fas fa-search"></i>
-                    </button>
+                <div class="container">
+                    <h2 class="mb-4 text-center font-weight-bold" style="text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);">
+                        Welcome, Suhail Husain
+                    </h2>
+                    <h2 id="timeDisplay${index}" style="text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);" class="display-4"></h2>
+                    <p style="text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);" class="lead">${image.description}</p>
+                    
+                <div class="input-group col-md-8 offset-md-2 my-4">
+                    <input type="text" id="searchInput${index}" class="form-control transparent-input search-glass" placeholder="Search Google..." aria-label="Search Google">
+                    <div class="input-group-append">
+                        <button class="btn btn-outline-secondary" type="button" onclick="searchGoogle(${index})">
+                            <i class="fas fa-search"></i>
+                        </button>
+                    </div>
                 </div>
-            </div>
+                    <div style="" id="team-container${index}" class="row justify-content-center glass"></div>
+                </div>
             </section>
         </div>
-        </div>
-    `;
+    </div>
+`;
     carouselInner.innerHTML += carouselItem;
     const indicator = `
         <li data-target="#carouselExampleIndicators" data-slide-to="${index}" class="${isActive}"></li>
