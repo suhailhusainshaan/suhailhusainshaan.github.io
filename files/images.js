@@ -1,10 +1,10 @@
 const images = [
     {
-        "url": "files/img/8.mp4",
+        "url": "files/img/9.mp4",
         "description": "Have a good day Sir!"
     },
     {
-        "url": "files/img/9.mp4",
+        "url": "https://www.wsupercars.com/wallpapers-regular/Tuners/2025-Brabus-1000-001-1080.jpg",
         "description": "Have a good day Sir!"
     },
     {
@@ -19,5 +19,6 @@ const images = [
         "url": "https://images.pexels.com/photos/1131575/pexels-photo-1131575.jpeg",
         "description": "Have a good day Sir!"
     }
+
 
 ];
